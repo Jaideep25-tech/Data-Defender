@@ -1,0 +1,193 @@
+[
+  {
+    "name" : "com.strider.datadefender.Anonymize",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "batchSize" },
+      { "name" : "dbConfig" },
+      { "name" : "requirement" },
+      { "name" : "tables" }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.DataDefender",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "methods" : [
+      { "name" : "setDebug", "parameterTypes" : ["boolean"] },
+      { "name" : "setVerbose", "parameterTypes" : ["boolean[]"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.DbConfig",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "excludeTablePatterns" },
+      { "name" : "includeTablePatterns" },
+      { "name" : "password" },
+      { "name" : "schema" },
+      { "name" : "skipEmptyTables" },
+      { "name" : "username" }
+    ],
+    "methods" : [
+      { "name" : "setUrl", "parameterTypes" : ["java.lang.String"] },
+      { "name" : "setVendor", "parameterTypes" : ["java.lang.String"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.Discover",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "dbConfig" },
+      { "name" : "outputFile" },
+      { "name" : "spec" }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.DiscoverColumns",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "dbConfig" },
+      { "name" : "discover" },
+      { "name" : "patterns" },
+      { "name" : "spec" }
+    ],
+    "methods" : [
+      { "name" : "setOutputFile", "parameterTypes" : ["java.io.File"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.DiscoverData",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "dbConfig" },
+      { "name" : "discover" },
+      { "name" : "modelDiscoveryConfig" },
+      { "name" : "spec" }
+    ],
+    "methods" : [
+      { "name" : "setOutputFile", "parameterTypes" : ["java.io.File"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.DiscoverFiles",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "directories" },
+      { "name" : "discover" },
+      { "name" : "excludeExtensions" },
+      { "name" : "modelDiscoveryConfig" }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.Extract",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "dbConfig" },
+      { "name" : "spec" }
+    ],
+    "methods" : [
+      { "name" : "setTableColumns", "parameterTypes" : ["java.util.List"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.ModelDiscoveryConfig",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "calculateScore" },
+      { "name" : "extensions" },
+      { "name" : "fileModels" },
+      { "name" : "limit" },
+      { "name" : "probabilityThreshold" },
+      { "name" : "thresholdCount" },
+      { "name" : "thresholdHighRisk" },
+      { "name" : "tokenModel" }
+    ],
+    "methods" : [
+      { "name" : "setModels", "parameterTypes" : ["java.util.List"] }
+    ]
+  },
+  {
+    "name" : "com.strider.datadefender.requirement.Requirement",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "java.lang.Boolean",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "java.lang.Double",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "java.lang.Integer",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "java.util.regex.Pattern",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "picocli.CommandLine$AutoHelpMixin",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "helpRequested" },
+      { "name" : "versionRequested" }
+    ]
+  },
+  {
+    "name" : "picocli.CommandLine$HelpCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "commands" },
+      { "name" : "helpRequested" }
+    ]
+  }
+]

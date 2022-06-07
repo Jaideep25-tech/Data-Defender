@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.strider.datadefender.anonymizer.functions.BioTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in com.strider.datadefender.anonymizer.functions.BioTest

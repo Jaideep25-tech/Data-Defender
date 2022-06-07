@@ -1,0 +1,12 @@
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/database/DbConnectionTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/utils/EncoderTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/database/metadata/MetaDataTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/database/sqlbuilder/SqlBuilderTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/functions/UtilsTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/utils/LikeMatcherTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/anonymizer/functions/BioTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/anonymizer/functions/LipsumTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/anonymizer/functions/CoreTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/database/IDbFactoryTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/utils/RequirementUtilsTest.java
+/home/mohammad/Desktop/DataDefender-master/src/test/java/com/strider/datadefender/utils/XegerTest.java
